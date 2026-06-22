@@ -15,18 +15,9 @@
             "role": "Developer"
         }
     ],
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../contracts",
-            "options": {
-                "symlink": true
-            }
-        }
-    ],
     "require": {
         "php": ">=8.0",
-        "bolt-php/contracts": "dev-module-support"
+        "bolt-php/contracts": ">=1.2.0"
     },
     "autoload": {
         "psr-4": {
