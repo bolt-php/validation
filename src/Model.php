@@ -3,8 +3,9 @@
 namespace framework\validation;
 
 use framework\validation\interfaces\TypeTransformer;
+use stdClass;
 
-class Model
+class Model extends stdClass
 {
     public $errors = [];
 
